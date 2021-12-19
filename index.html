@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hosterr</title>
+    <!-- ESTILOS PROPIOS -->
+    <link rel="stylesheet" href="estilos.css">
+    <!-- CDN FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+    <!-- JS PROPIO -->
+    <script src="funciones.js" defer></script>
+</head>
+<body>
+    <main>
+        <!-- HEADER -->
+        <header class="header">
+
+            <!-- logo -->
+            <div class="logo">
+                <img class="logo__img" src="Assets/Logo.svg" alt="Logo">
+                <span class="logo__span">Hosterr is hiring!</span>
+            </div>
+
+            <!-- info -->
+            <nav class="info">
+                <ul class="info__lista">
+                    <li class="info__lista__item"><a href="#" class="info__lista__item_enlace">Plans</a></li>
+                    <li class="info__lista__item"><a href="#" class="info__lista__item_enlace">Find Domain</a></li>
+                    <li class="info__lista__item"><a href="#" class="info__lista__item_enlace">Why Hosterr</a></li>
+                </ul>
+            </nav>
+
+            <!-- botones -->
+            <div class="botones">
+                <a href="#" class="botones__enlace">Sign in</a>
+                <button type="button" class="botones__boton"><a href="#" class="botones__boton__enlace">Join Waitlist</a></button>
+            </div>
+
+            <!-- menú hamburguesa -->
+            <div class="menu-h">
+                <i class="fas fa-bars menu-h__icono"></i>
+            </div>
+
+            <!-- menú desplegable -->
+            <div class="menu-desplegable">
+                <!-- info -->
+                <nav class="info info-desplegable">
+                    <ul class="info__lista">
+                        <li class="info__lista__item"><a href="#" class="info__lista__item_enlace">Plans</a></li>
+                        <li class="info__lista__item"><a href="#" class="info__lista__item_enlace">Find Domain</a></li>
+                        <li class="info__lista__item"><a href="#" class="info__lista__item_enlace">Why Hosterr</a></li>
+                    </ul>
+                </nav>
+
+                <!-- botones -->
+                <div class="botones botones_desplegable">
+                    <a href="#" class="botones__enlace">Sign in</a>
+                    <button type="button" class="botones__boton"><a href="#" class="botones__boton__enlace">Join Waitlist</a></button>
+                </div>
+            </div>
+        </header>
+
+        <!-- PRINCIPAL -->
+        <section class="principal">
+            <!-- contenido -->
+            <article class="contenido">
+                <h1 class="contenido__titulo">Host your website in less than 5 minutes.</h1>
+                <p class="contenido_parrafo">With Hosterr, get your website up and running in no less than 5 minutes with the most competitive pricing packages available online.</p>
+                <form action="#" method="POST" class="formulario">
+                    <input type="email" name="email" placeholder="Enter e-mail address" class="formulario__email">
+                    <input type="submit" value="Join Waitlist" class="formulario__submit">
+                </form>
+                <div class="spam">
+                    <img src="Assets/Checkmark.svg" alt="Checkmark" class="spam__svg">
+                    <span spam__span>No spam, ever. Unsuscribe anytime</span>
+                </div>
+            </article>
+
+            <!-- figura -->
+            <div class="figura">
+                <img src="Assets/Hero Image (Model).png" alt="Iagen principal" class="figura__principal">
+                <img src="Assets/Purple Shape.svg" alt="Forma morada" class="figura__morada">
+                <img src="Assets/Pink Shape.svg" alt="Forma rosa" class="figura__rosa">
+                <img src="Assets/Blue Shape.svg" alt="Forma azul" class="figura__azul">
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <!-- rrss -->
+            <nav class="rrss">
+                <ul class="rrss__lista">
+                    <li class="rrss__lista__item"><a href="https://www.facebook.com" target="blank" class="rrss__lista__item__enlace"><i class="fab fa-facebook-square"></i></a></li>
+                    <li class="rrss__lista__item"><a href="https://www.instagram.com" target="blank" class="rrss__lista__item__enlace"><i class="fab fa-instagram-square"></i></a></li>
+                    <li class="rrss__lista__item"><a href="https://www.twitter.com" target="blank" class="rrss__lista__item__enlace"><i class="fab fa-twitter-square"></i></a></li>
+                </ul>
+            </nav>
+
+            <!-- consultas -->
+            <div class="consultas">
+                <img src="Assets/Help Avatar.svg" alt="Help avatar" class="consultas_svg">
+                <div class="consultas__preguntas">
+                    <span class="consultas__preguntas__1">Have any questions?</span>
+                    <a href="#" class="consultas__preguntas__2">Talk to a specialist</a>
+                </div>
+            </div>
+
+        </footer>
+    </main>
+</body>
+</html>
